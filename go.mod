@@ -2,6 +2,8 @@ module github.com/vladyslav-dev/todo-api
 
 go 1.19
 
+require github.com/gofiber/fiber v1.14.6
+
 require (
 	github.com/KyleBanks/depth v1.2.1 // indirect
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
@@ -13,8 +15,10 @@ require (
 	github.com/go-openapi/swag v0.19.15 // indirect
 	github.com/gofiber/fiber/v2 v2.45.0 // indirect
 	github.com/gofiber/swagger v0.1.11 // indirect
+	github.com/gofiber/utils v0.0.10 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/google/uuid v1.3.0 // indirect
+	github.com/gorilla/schema v1.1.0 // indirect
 	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/klauspost/compress v1.16.3 // indirect
