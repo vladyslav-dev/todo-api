@@ -1,4 +1,4 @@
-module todo-api
+module github.com/vladyslav-dev/todo-api
 
 go 1.19
 
