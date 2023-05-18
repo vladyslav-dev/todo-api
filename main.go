@@ -1,10 +1,13 @@
 package main
 
 import (
-	"fmt"
+	"github.com/vladyslav-dev/todo-api/app"
 )
 
 func main() {
 
-	fmt.Println("Go is working")
+	err := app.SetupAndRunApp()
+	if err != nil {
+		panic(err)
+	}
 }
