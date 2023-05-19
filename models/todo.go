@@ -8,4 +8,5 @@ type Todo struct {
 	Completed   bool               `json:"completed" bson:"completed"`
 	Description string             `json:"description" bson:"description"`
 	Date        string             `json:"date" bson:"date"`
+	Count       int64              `json:"count" bson:"count"`
 }
